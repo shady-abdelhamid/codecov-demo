@@ -35,7 +35,7 @@ jobs:
         with:
           name: code-coverage
           path: coverage
-          retention-days: 1
+          retention-days: 3
       - name: Upload Coverage Reports
         run: npx codecov
         env: 
